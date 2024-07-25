@@ -44,24 +44,29 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   margin: 10px 30px;
 }
 
-.navbar ul li {
-  display: inline;
+.navbar ul {
+  list-style: none;
+  display: flex;
   padding: 0px 10px;
 }
 
-.navbar a {
+.navbar ul li a {
   text-decoration: none;
   color: #fff;
+  padding: 0px 15px;
+}
+.icon {
+  display: none;
+  cursor: pointer;
 }
 
-#bar{
-  color: #fff;
-  font-size: 20px;
-  display: none;
+.navbar ul li a:hover {
+  color: rgb(251, 195, 92);
+  transition: 0.5s ease-in-out;
 }
 .hero-container {
   display: grid;

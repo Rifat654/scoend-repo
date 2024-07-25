@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+  .pry-btn {
+    padding: 5px 17px;
+  }
+  .head-h {
+    font-size: 25px;
+  }
+  .head-p {
+    font-size: 9px;
+  }
+  .icon {
+    display: block;
+  }
+  .navbar {
+    margin: 0;
+    padding: 8px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .navbar ul {
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 49px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    gap: 0;
+    overflow: hidden;
+  }
+  .navbar ul li {
+    margin: 15px 0px;
+  }
+
+  #ul {
+    transition: 0.5s ease-in-out;
+  }
+}
