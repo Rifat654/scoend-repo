@@ -1,4 +1,8 @@
+/* tab  device media  end*/
 @media screen and (max-width: 767px) {
+  .header {
+    height: 85vh;
+  }
   .pry-btn {
     padding: 5px 17px;
   }
@@ -35,3 +39,36 @@
     transition: 0.5s ease-in-out;
   }
 }
+/* tab  device media  end*/
+
+/* mobile device media  start*/
+@media screen and (max-width: 420px) {
+  .header {
+    height: 65vh;
+  }
+  .logo {
+    font-size: 16px;
+  }
+  .pry-btn {
+    font-size: 7px;
+  }
+  .head-h {
+    font-size: 16px;
+  }
+  .head-p {
+    font-size: 7px;
+    flex-wrap: wrap;
+  }
+  .navbar ul {
+    top: 38px;
+  }
+  .about-img {
+    width: 100%;
+    height: auto;
+  }
+  .box-container {
+    margin-top: 0px;
+  }
+}
+
+/* mobile  device media  end*/
